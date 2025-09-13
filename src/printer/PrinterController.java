@@ -18,6 +18,7 @@ public class PrinterController {
             printers[i].setNext(printers[i< N_THREADS-1 ? i+1: 0]);
 
         }
+
         printers[0].interrupt();
 
 
